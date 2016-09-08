@@ -6,4 +6,4 @@ Daca modific aici linia 2 ....
 
 
 
-Text 1
+Am sters Text 1
