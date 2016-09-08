@@ -69,7 +69,7 @@
 						
 						<h3 class="animate-onscroll no-margin-top">Știri recente</h3>
 						
-                                                <?php $this->load->view('widgets/blog-item-big', !empty($data) ? $data : array()); ?>
+                                                <?php $this->load->view('widgets/recent-news', !empty($data) ? $data : array()); ?>
 						
 					</div>
 					
@@ -90,7 +90,7 @@
 				
 					
 					<div class="col-lg-12 col-md-12 col-sm-12">
-						<?php $this->load->view('widgets/blog-items-carousel', !empty($data) ? $data : array()); ?>
+						<?php $this->load->view('widgets/conducerea-centrala', !empty($data) ? $data : array()); ?>
 						
 					</div>
 					
