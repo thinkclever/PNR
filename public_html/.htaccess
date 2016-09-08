@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# IF it is not a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# AND it is not a file
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !^(index\.php|images|robots\.txt)
+RewriteRule ^(.+)$ index.php/$1 [L]
